@@ -1,0 +1,85 @@
+.container {
+    margin: 30px;
+}
+.heading {
+    margin-bottom: 20px;
+    background-color: rgb(159, 159, 159);
+}
+.table {
+}
+.field-bar {
+    width: 100%;
+    display: flex;
+}
+
+.item {
+    display: flex;
+    width: 100%;
+}
+.field {
+    border: 1px solid #ededed;
+    padding: 5px 10px;
+}
+
+.id {
+    width: 23%;
+}
+.NoItems {
+    width: 10%;
+}
+.totalPrice {
+    width: 10%;
+}
+.payment {
+    flex: 1;
+}
+.status {
+    width: 18%;
+}
+.action {
+    width: 15%;
+
+    button {
+        padding: 6px 15px;
+        font-size: 2rem;
+        background-color: blue;
+        color: #fff;
+        border: 1px solid #ededed;
+        border-radius: 4px;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    button + button {
+        margin-left: 10px;
+    }
+    .edit {
+        background-color: blue;
+    }
+
+    .delete {
+        background-color: red;
+    }
+}
+
+.even {
+    background-color: #fff;
+}
+
+.wait-confirm {
+    color: red;
+}
+
+.delivered {
+    color: green;
+}
+
+.processing {
+    color: blue;
+}
+
+.cancel {
+    color: rgb(134, 0, 118);
+}

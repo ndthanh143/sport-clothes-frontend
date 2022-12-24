@@ -1,0 +1,107 @@
+.product-detail {
+    width: 100%;
+}
+
+.order {
+    width: 100%;
+    .heading {
+        // font-size: 2.5rem;
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+    .price {
+        color: var(--orange-color);
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    .header {
+        width: 28%;
+    }
+    .select {
+        flex: 1;
+        display: flex;
+        .element {
+            display: inline-block;
+            margin-right: 15px;
+        }
+    }
+
+    .size {
+        display: flex;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .colors {
+        display: flex;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #ebecf0;
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+    }
+
+    .action {
+        display: flex;
+        margin-bottom: 40px;
+        .quantity {
+            width: 150px;
+            display: flex;
+            font-weight: 700;
+
+            .btn {
+                width: 45px;
+                background-color: #f3f4f4;
+                border: none;
+                font-size: 2.5rem;
+                cursor: pointer;
+            }
+
+            .text {
+                display: flex;
+                flex: 1;
+                font-size: 2rem;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid #f3f4f4;
+            }
+        }
+
+        .add-btn {
+            flex: 1;
+            padding-left: 15px;
+            height: 45px;
+        }
+    }
+}
+
+.delivery {
+    border-bottom: 1px solid #ebecf0;
+
+    .info-list {
+        .item {
+            padding-left: 45px;
+            position: relative;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+
+            span {
+                position: absolute;
+                top: 50%;
+                left: 0%;
+                font-size: 2rem;
+                transform: translateY(-50%);
+                color: #000;
+            }
+        }
+    }
+}
+
+.description {
+    margin-top: 10px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding-right: 10px;
+}

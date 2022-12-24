@@ -1,0 +1,78 @@
+.container {
+    margin: 30px;
+}
+.heading {
+    margin-bottom: 20px;
+    background-color: rgb(159, 159, 159);
+}
+.table {
+}
+.field-bar {
+    width: 100%;
+    display: flex;
+}
+
+.item {
+    display: flex;
+    width: 100%;
+}
+.field {
+    border: 1px solid #ededed;
+    padding: 5px 10px;
+}
+
+.image {
+    width: 10%;
+
+    img {
+        width: 100%;
+        border: 1px solid #ededed;
+    }
+}
+.id {
+    width: 23%;
+}
+.name {
+    flex: 1;
+}
+.price {
+    width: 10%;
+}
+.stock {
+    width: 7%;
+}
+.category {
+    width: 10%;
+}
+.action {
+    width: 15%;
+
+    button {
+        width: 30%;
+        height: 50%;
+        font-size: 2rem;
+        background-color: blue;
+        color: #fff;
+        border: 1px solid #ededed;
+        border-radius: 4px;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    button + button {
+        margin-left: 10px;
+    }
+    .edit {
+        background-color: blue;
+    }
+
+    .delete {
+        background-color: red;
+    }
+}
+
+.even {
+    background-color: #fff;
+}

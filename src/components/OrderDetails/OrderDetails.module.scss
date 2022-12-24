@@ -1,0 +1,163 @@
+.container {
+}
+
+.shipping {
+    .content {
+        padding-left: 20px;
+
+        .field {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+
+            label {
+                font-weight: 600;
+            }
+            .text {
+                text-align: left;
+            }
+        }
+    }
+}
+
+.even {
+    background-color: rgb(231, 231, 231);
+}
+
+.items {
+    padding-top: 20px;
+    border-top: 4px solid #ededed;
+}
+.product {
+    display: flex;
+    border-bottom: 1px solid #ededed;
+    padding: 10px 20px;
+
+    .thumb {
+        width: 10%;
+        height: 100px;
+        border: 1px solid #ededed;
+        img {
+            width: 100%;
+        }
+    }
+    .description {
+        flex: 1;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .name {
+        font-size: 1.6rem;
+        font-weight: 600;
+        margin-bottom: 4px;
+    }
+    .size {
+        font-size: 1.4rem;
+    }
+    .color {
+        font-size: 1.4rem;
+    }
+    .total {
+        width: 40%;
+        text-align: right;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+}
+
+.order-status {
+    .text {
+        color: red;
+    }
+}
+
+.payment {
+    margin-bottom: 40px;
+}
+
+.momo {
+    .heading {
+        margin-bottom: 20px;
+        // text-align: center;
+        position: relative;
+        .icon {
+            margin-left: 10px;
+            position: absolute;
+            width: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    .info {
+        text-align: center;
+        background-color: #feefb3;
+        color: #9f6000;
+        padding: 10px 0;
+        font-weight: 600;
+        margin-bottom: 40px;
+        p {
+            padding: 4px 0px;
+        }
+    }
+    .qr-code {
+        width: 30%;
+
+        img {
+            width: 100%;
+        }
+    }
+    .note {
+        margin-top: 20px;
+    }
+}
+
+.banking {
+    .heading {
+        margin-bottom: 20px;
+        // text-align: center;
+        position: relative;
+        .icon {
+            margin-left: 10px;
+            position: absolute;
+            font-size: 2.2rem;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    .info {
+        text-align: center;
+        background-color: #feefb3;
+        color: #9f6000;
+        padding: 10px 0;
+        font-weight: 600;
+        // margin-bottom: 40px;
+        p {
+            padding: 4px 0px;
+        }
+    }
+    .note {
+        margin-top: 20px;
+    }
+}
+
+.direct {
+    .heading {
+        margin-bottom: 20px;
+    }
+    .info {
+        text-align: center;
+        background-color: #feefb3;
+        color: #9f6000;
+        padding: 10px 0;
+        font-weight: 600;
+        // margin-bottom: 40px;
+        p {
+            padding: 4px 0px;
+        }
+    }
+}
+
+.notation {
+    margin-top: 20px;
+}

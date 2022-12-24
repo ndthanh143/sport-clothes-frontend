@@ -1,0 +1,28 @@
+.container {
+    width: var(--content-pc-width);
+    margin: auto;
+}
+
+.heading {
+    // display: flex;
+    text-align: center;
+
+    .title {
+        font-weight: 700;
+    }
+    .sub-title {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+
+    &:after {
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60px;
+        height: 4px;
+        background-color: #252a2b;
+    }
+}

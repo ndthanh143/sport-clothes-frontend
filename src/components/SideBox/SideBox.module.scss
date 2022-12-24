@@ -1,0 +1,30 @@
+.container {
+    padding: 20px 15px;
+    border: 1px solid #e7e7e7;
+}
+.container + .container {
+    margin-top: 30px;
+}
+
+.title {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #000;
+    text-align: center;
+    cursor: pointer;
+}
+
+.content {
+    max-height: 500px;
+    overflow: visible;
+    transition: all 0.5s ease-in-out;
+}
+
+.collapsible {
+    max-height: 0;
+    padding-bottom: 0;
+    overflow: hidden;
+
+    transition: all 0.5s ease-in-out;
+}

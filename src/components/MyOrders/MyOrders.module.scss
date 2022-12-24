@@ -1,0 +1,69 @@
+.container {
+}
+.field-bar {
+    width: 100%;
+    display: flex;
+}
+
+.field {
+    border: 1px solid #ededed;
+    padding: 5px 10px;
+}
+.id {
+    width: 25%;
+}
+.date {
+    flex: 1;
+}
+.status {
+    width: 22%;
+}
+.total {
+    width: 15%;
+}
+.action {
+    width: 12%;
+    button {
+        width: 50%;
+        font-size: 2rem;
+        background-color: blue;
+        color: #fff;
+        border: 1px solid #ededed;
+        border-radius: 4px;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .view {
+        text-align: center;
+    }
+    button + button {
+        margin-left: 10px;
+    }
+    .view-btn {
+        background-color: blue;
+    }
+
+    .delete {
+        background-color: red;
+    }
+}
+.item {
+    display: flex;
+    width: 100%;
+    font-size: 1.4rem;
+    .action {
+    }
+}
+
+.order {
+    padding: 10px;
+    border: 10px solid #d9edf7;
+
+    .text {
+        font-size: 1.5rem;
+        margin-bottom: 8px;
+    }
+}

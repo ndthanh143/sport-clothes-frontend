@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    width: var(--content-pc-width);
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+}
+
+.sidebar-list {
+    .menu-list {
+        font-size: 1.6rem;
+
+        .item {
+            position: relative;
+            padding: 12px 0;
+            border-bottom: 1px #efefef dotted;
+
+            a {
+                transition: color 0.3s;
+
+                &:hover {
+                    color: var(--orange-color);
+                    transition: color 0.3s;
+                }
+            }
+        }
+    }
+}

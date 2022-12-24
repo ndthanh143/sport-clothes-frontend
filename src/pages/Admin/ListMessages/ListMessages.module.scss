@@ -1,0 +1,80 @@
+.container {
+    margin: 30px;
+}
+.heading {
+    margin-bottom: 20px;
+    background-color: rgb(159, 159, 159);
+}
+.table {
+}
+.field-bar {
+    width: 100%;
+    display: flex;
+}
+
+.item {
+    display: flex;
+    width: 100%;
+}
+.field {
+    border: 1px solid #ededed;
+    padding: 5px 10px;
+}
+
+.name {
+    width: 15%;
+}
+
+.email {
+    width: 22%;
+}
+
+.phone {
+    width: 13%;
+}
+
+.title {
+    flex: 1;
+}
+
+.status {
+    width: 13%;
+}
+.action {
+    width: 10%;
+}
+
+.unread {
+    color: red;
+}
+.confirm {
+    color: green;
+}
+
+.action {
+    width: 12%;
+
+    button {
+        padding: 6px 15px;
+        font-size: 2rem;
+        background-color: blue;
+        color: #fff;
+        border: 1px solid #ededed;
+        border-radius: 4px;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    button + button {
+        margin-left: 10px;
+    }
+    .edit {
+        background-color: blue;
+    }
+
+    .delete {
+        background-color: red;
+    }
+}

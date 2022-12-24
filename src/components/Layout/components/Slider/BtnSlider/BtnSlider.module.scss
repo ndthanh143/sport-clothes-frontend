@@ -1,0 +1,28 @@
+.btn-slide {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 45px;
+    height: 45px;
+    background-color: rgba(51, 51, 51, 0.25);
+    color: var(--primary);
+    border: none;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        background-color: rgba(51, 51, 51, 0.8);
+    }
+}
+
+.next {
+    right: 50px;
+}
+
+.prev {
+    left: 50px;
+}

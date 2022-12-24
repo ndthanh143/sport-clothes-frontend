@@ -1,0 +1,155 @@
+.container {
+    display: flex;
+}
+.order-details {
+    width: 70%;
+    padding: 40px;
+}
+.shipping {
+    .content {
+        padding-left: 20px;
+
+        .field {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+
+            label {
+                font-weight: 600;
+            }
+            .text {
+                text-align: left;
+            }
+        }
+    }
+}
+
+.even {
+    background-color: rgb(231, 231, 231);
+}
+
+.items {
+    padding-top: 20px;
+    border-top: 4px solid #ededed;
+}
+.product {
+    display: flex;
+    border-bottom: 1px solid #ededed;
+    padding: 10px 20px;
+
+    .thumb {
+        width: 10%;
+        overflow: hidden;
+        border: 1px solid #ededed;
+        img {
+            width: 100%;
+        }
+    }
+    .description {
+        flex: 1;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .name {
+        font-size: 1.6rem;
+        font-weight: 600;
+        margin-bottom: 4px;
+    }
+    .size {
+        font-size: 1.4rem;
+    }
+    .color {
+        font-size: 1.4rem;
+    }
+    .total {
+        width: 40%;
+        text-align: right;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+}
+
+.order-status {
+}
+
+.payment {
+    margin-bottom: 40px;
+}
+.operation {
+    flex: 1;
+    margin-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    border-left: 1px solid #bebdbd;
+    height: 100%;
+
+    .btn-submit {
+        margin-top: 20px;
+        padding: 10px;
+        width: 100%;
+        cursor: pointer;
+        background-color: rgb(39, 170, 222);
+        border: 1px solid rgb(0, 182, 254);
+        border-radius: 4px;
+        color: #fff;
+    }
+
+    .status-update {
+        margin-top: 20px;
+        .title {
+            font-size: 1.7rem;
+            font-weight: 600;
+        }
+
+        .status {
+            display: flex;
+            align-items: center;
+
+            input {
+                margin-left: 10px;
+            }
+        }
+    }
+    .payment-update {
+        margin-top: 10px;
+        .title {
+            font-size: 1.7rem;
+            font-weight: 600;
+        }
+
+        .status {
+            display: flex;
+            align-items: center;
+
+            input {
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+.notation {
+    margin-top: 20px;
+}
+
+.wait-confirm {
+    color: red;
+}
+
+.delivered {
+    color: green;
+}
+
+.processing {
+    color: blue;
+}
+
+.cancel {
+    color: rgb(134, 0, 118);
+}
+
+.paid {
+    color: green;
+}

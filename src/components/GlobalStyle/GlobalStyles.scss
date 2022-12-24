@@ -1,0 +1,144 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@100;200;300;500;600;700&display=swap');
+
+:root {
+    --primary: #fff;
+    --middle-header: #fff;
+    --text-color: #333;
+    --text-white-color: #fff;
+    --text-black-color: #333;
+    --orange-color: #ff5b00;
+    --content-pc-width: 1170px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+
+    font-size: 1.6rem;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.col {
+    padding: 0 15px;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.col-3 {
+    width: calc(100% / 3);
+}
+.col-4 {
+    width: 25%;
+}
+
+.col-5 {
+    width: 20%;
+}
+
+.col-6 {
+    width: calc(100% / 6);
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+// color class
+.red {
+    color: red;
+    background-color: red;
+}
+
+.orange {
+    color: orange;
+    background-color: orange;
+}
+
+.yellow {
+    color: yellow;
+    background-color: yellow;
+}
+
+.purple {
+    color: #800080;
+    background-color: #800080;
+}
+
+.black {
+    color: #000;
+    background-color: #000;
+}
+
+.light-green {
+    color: #52ff52;
+    background-color: #52ff52;
+}
+
+.dark-green {
+    color: #099116;
+    background-color: #099116;
+}
+
+.gray {
+    color: #44435a;
+    background-color: #44435a;
+}
+
+.light-blue {
+    color: #00a5da;
+    background-color: #00a5da;
+}
+
+.dark-blue {
+    color: #0000ff;
+    background-color: #0000ff;
+}
+
+.blue {
+    color: #008edb;
+    background-color: #008edb;
+}
+
+.copper {
+    color: #c9ac00;
+    background-color: #c9ac00;
+}
+
+.greyish {
+    color: #d6d6d6;
+    background-color: #d6d6d6;
+}
+
+.dark-gray {
+    color: #6d6d6d;
+    background-color: #6d6d6d;
+}

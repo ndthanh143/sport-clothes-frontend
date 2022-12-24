@@ -1,0 +1,42 @@
+.container {
+    max-width: 450px;
+    margin: 40px auto;
+}
+
+.heading {
+    text-align: center;
+}
+
+.user-details {
+    .field {
+        display: flex;
+        font-size: 1.8rem;
+        margin: 40px 0;
+        label {
+            margin-right: 10px;
+            font-weight: 600;
+        }
+
+        .option-select {
+            // min-width: 100px;
+        }
+
+        .text-input {
+            padding: 4px 8px;
+            font-size: 1.6rem;
+            border: 1px solid #ccc;
+            outline: none;
+        }
+    }
+}
+
+.btn-submit {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    background-color: rgb(39, 170, 222);
+    border: 1px solid rgb(0, 182, 254);
+    border-radius: 4px;
+    color: #fff;
+}

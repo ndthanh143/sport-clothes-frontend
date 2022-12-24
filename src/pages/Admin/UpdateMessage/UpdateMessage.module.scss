@@ -1,0 +1,94 @@
+.container {
+    margin: 40px;
+}
+
+.heading {
+    margin-bottom: 10px;
+}
+
+.status {
+    margin: 20px 0;
+    display: flex;
+    .confirm {
+        display: flex;
+        align-items: center;
+        color: green;
+        font-size: 2rem;
+        background-color: rgb(191, 234, 191);
+        opacity: 0.5;
+        padding: 4px;
+        border-radius: 4px;
+        cursor: pointer;
+        &:hover {
+            opacity: 1;
+        }
+        .icon {
+            border: 1px solid green;
+            display: flex;
+            align-items: center;
+            padding: 6px;
+            border-radius: 50%;
+            color: green;
+            background-color: rgb(191, 234, 191);
+            margin-right: 10px;
+        }
+    }
+
+    .un-confirm {
+        display: flex;
+        align-items: center;
+        font-size: 2rem;
+        color: red;
+        background-color: rgb(255, 215, 215);
+        padding: 4px;
+        border-radius: 4px;
+        opacity: 0.5;
+        margin-left: 30px;
+        cursor: pointer;
+
+        &:hover {
+            opacity: 1;
+        }
+
+        .icon {
+            border: 1px solid red;
+            display: flex;
+            align-items: center;
+            padding: 6px;
+            border-radius: 50%;
+            color: red;
+            background-color: rgb(255, 215, 215);
+            margin-right: 10px;
+        }
+    }
+}
+
+.active {
+    opacity: 1 !important;
+    cursor: default !important;
+    background-color: transparent !important;
+}
+
+.sender-info {
+    margin-bottom: 10px;
+    .field {
+        display: flex;
+        margin: 8px 20px;
+        font-size: 1.7rem;
+        .title {
+            font-weight: 600;
+            margin-right: 10px;
+        }
+    }
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.content {
+    p {
+        margin-top: 4px;
+        font-size: 1.7rem;
+    }
+}

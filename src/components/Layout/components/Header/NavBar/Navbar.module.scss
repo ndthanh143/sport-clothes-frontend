@@ -1,0 +1,41 @@
+.navbar-wrapper {
+    background-color: #222;
+}
+
+.logo {
+    display: none;
+    max-width: 200px;
+    img {
+        height: 50px;
+    }
+}
+
+.navbar-sticky {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    animation: fadeIn 0.3s ease-in-out;
+    .navbar-wrapper {
+        display: flex;
+        top: 0;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+    }
+    .logo {
+        display: block;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        top: -60px;
+    }
+    100% {
+        opacity: 1;
+        top: 0;
+        transition: all;
+    }
+}

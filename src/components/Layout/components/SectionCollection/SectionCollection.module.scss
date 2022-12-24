@@ -1,0 +1,28 @@
+.section-collection {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    // margin-bottom: 20px;
+}
+
+.container {
+    width: 1170px;
+}
+
+.title {
+    padding: 15px 0;
+    margin-bottom: 10px;
+    font-size: 2.4rem;
+    color: #000;
+    text-transform: uppercase;
+
+    .link {
+        &:hover {
+            color: var(--orange-color);
+        }
+    }
+}
+
+.title-align-center {
+    text-align: center;
+}

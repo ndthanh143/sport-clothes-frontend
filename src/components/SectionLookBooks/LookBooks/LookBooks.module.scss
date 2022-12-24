@@ -1,0 +1,76 @@
+.look-books {
+}
+
+.image {
+    position: relative;
+
+    img {
+        width: 100%;
+    }
+}
+
+.detail {
+    padding-top: 15px;
+}
+
+.title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.button {
+    height: 38px;
+    width: 40%;
+    margin-top: 12px;
+}
+
+.look-book-1,
+.look-book-2,
+.look-book-3 {
+    padding: 0 15px;
+}
+
+.look-book-1 {
+    .popover-1 {
+        position: absolute;
+        top: 23%;
+        left: 50%;
+    }
+    .popover-2 {
+        position: absolute;
+        top: 38%;
+        left: 45%;
+    }
+    .popover-3 {
+        position: absolute;
+        top: 60%;
+        left: 57%;
+    }
+}
+
+.look-book-2 {
+    .popover-1 {
+        position: absolute;
+        top: 42%;
+        left: 50%;
+    }
+    .popover-2 {
+        position: absolute;
+        top: 79%;
+        left: 25%;
+    }
+    .popover-3 {
+        position: absolute;
+        top: 76%;
+        left: 63%;
+    }
+}
+
+.look-book-3 {
+    .popover-1 {
+        position: absolute;
+        top: 83%;
+        left: 57%;
+    }
+}

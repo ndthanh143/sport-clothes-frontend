@@ -1,0 +1,57 @@
+.container {
+    margin: 30px;
+}
+
+.heading {
+    margin-bottom: 20px;
+    background-color: rgb(159, 159, 159);
+}
+
+.fields {
+    color: #fff;
+}
+
+.total {
+    text-align: center;
+    background-image: linear-gradient(rgb(15, 21, 206), rgb(135, 217, 255));
+    border-radius: 6px;
+    border: 1px solid rgb(5, 8, 94);
+}
+
+.management {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.type {
+    width: 30%;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.title {
+    font-size: 2.2rem;
+    font-weight: 500;
+    padding-top: 30px;
+}
+
+.number {
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.product {
+    background-image: linear-gradient(to left, rgb(8, 85, 120), rgb(0, 174, 255));
+    border: 1px solid rgb(0, 40, 59);
+}
+
+.order {
+    background-image: linear-gradient(to left, rgb(156, 16, 180), rgb(206, 132, 220));
+    border: 1px solid rgb(77, 4, 90);
+}
+
+.user {
+    background-image: linear-gradient(to left, rgb(255, 157, 0), rgb(229, 187, 127));
+    border: 1px solid rgb(105, 66, 3);
+}

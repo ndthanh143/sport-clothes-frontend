@@ -1,0 +1,17 @@
+.info {
+    .title {
+        border-bottom: 1px solid #ededed;
+    }
+
+    .detail {
+        margin-top: 10px;
+
+        .text {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .userName {
+            font-size: 1.7rem;
+        }
+    }
+}

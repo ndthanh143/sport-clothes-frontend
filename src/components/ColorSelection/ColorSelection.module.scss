@@ -1,0 +1,28 @@
+.custom-radio-btn {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    .checkmark {
+        padding: calc(50% + 4px);
+        border: 1px solid #ccc;
+        border-radius: 50%;
+        display: none;
+    }
+
+    input {
+        display: none;
+    }
+    input:checked + .custom-radio-btn {
+        background-color: #000;
+    }
+
+    input:checked + .checkmark {
+        display: inline-block;
+    }
+}

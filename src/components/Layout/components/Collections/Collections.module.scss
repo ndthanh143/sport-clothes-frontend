@@ -1,0 +1,126 @@
+.collections {
+    margin: 20px 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1170px;
+    display: flex;
+    align-items: center;
+}
+
+.banner {
+    flex: 1;
+    width: 41%;
+    padding: 0 15px;
+    img {
+        width: 100%;
+    }
+}
+
+@keyframes shine {
+    0% {
+        left: -15%;
+        visibility: visible;
+    }
+    60% {
+        left: 75%;
+        visibility: hidden;
+    }
+    100% {
+        visibility: hidden;
+    }
+}
+
+.product-demo {
+    padding: 0 15px;
+    width: 25%;
+    position: relative;
+    cursor: pointer;
+
+    img {
+        width: 100%;
+    }
+
+    &:hover .body {
+        padding-bottom: 65px;
+        transition: all 0.4s ease-in-out;
+        .action {
+            opacity: 1;
+            transition: all 0.4s ease-in-out;
+        }
+
+        .title {
+            &:after {
+                width: 30%;
+                transition: width 0.4s;
+            }
+        }
+    }
+
+    &:hover::before {
+        animation: shine 1s;
+    }
+
+    &:before {
+        content: '';
+        visibility: hidden;
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.3) 100%);
+        transform: skewX(-20deg);
+    }
+}
+.body {
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 10px 10px 0px;
+    transition: all 0.4s ease-in-out;
+
+    overflow: hidden;
+
+    p {
+        margin-bottom: 10px;
+    }
+
+    .title {
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        text-align: center;
+        position: relative;
+        line-height: 4rem;
+
+        &:after {
+            content: ' ';
+            background-color: #999999;
+            height: 2px;
+            position: absolute;
+            bottom: 0;
+            width: 0%;
+            transition: width 0.4s;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+
+    .action {
+        position: relative;
+        opacity: 0;
+        transition: all 0.4s ease-in;
+
+        .button {
+            position: absolute;
+            top: 20px;
+            width: 60%;
+            height: 36px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}
