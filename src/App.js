@@ -18,7 +18,7 @@ function App() {
 
     const dispatch = useDispatch();
     useEffect(() => {
-        dispatch(loadUser());
+        // dispatch(loadUser());
         dispatch(getAdminProducts());
     }, []);
 
