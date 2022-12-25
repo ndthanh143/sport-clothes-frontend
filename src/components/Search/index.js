@@ -25,12 +25,12 @@ function Search() {
     const dispatch = useDispatch();
     const { loading, productSearch, error } = useSelector((state) => state.productSearch);
 
-    useEffect(() => {
-        dispatch(getProductSearch(searchValue.trim()));
-    }, [searchValue]);
-    useEffect(() => {
-        setSearchResult(productSearch);
-    }, [productSearch]);
+    // useEffect(() => {
+    //     dispatch(getProductSearch(searchValue.trim()));
+    // }, [searchValue]);
+    // useEffect(() => {
+    //     setSearchResult(productSearch);
+    // }, [productSearch]);
 
     return (
         <div className={cx('search')}>
@@ -94,9 +94,9 @@ function Search() {
                             placeholder="Tìm kiếm sản phẩm..."
                             spellCheck={false}
                             required
-                            onFocus={() => {
-                                setShowResult(true);
-                            }}
+                            // onFocus={() => {
+                            //     setShowResult(true);
+                            // }}
                             onChange={(e) => {
                                 setSearchValue(e.target.value);
                             }}

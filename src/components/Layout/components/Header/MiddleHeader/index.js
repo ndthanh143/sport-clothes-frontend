@@ -27,6 +27,8 @@ function MiddleHeader() {
         return state.auth;
     });
 
+    console.log(loading, isAuthenticated);
+
     const { cartItems } = useSelector((state) => state.cart);
 
     const handleActionShow = (type) => {

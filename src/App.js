@@ -13,14 +13,14 @@ import Login from './components/Login';
 
 function App() {
     const { loading, isAuthenticated, user } = useSelector((state) => state.auth);
-    const { cartItems } = useSelector((state) => state.cart);
-    const { products: adminProducts, loading: prodLoading } = useSelector((state) => state.adminProducts);
+    // const { cartItems } = useSelector((state) => state.cart);
+    // const { products: adminProducts, loading: prodLoading } = useSelector((state) => state.adminProducts);
 
-    const dispatch = useDispatch();
-    useEffect(() => {
-        // dispatch(loadUser());
-        dispatch(getAdminProducts());
-    }, []);
+    // const dispatch = useDispatch();
+    // useEffect(() => {
+    //     // dispatch(loadUser());
+    //     // dispatch(getAdminProducts());
+    // }, []);
 
     // if (prodLoading === false && loading == false) {
     //     cartItems.map((item) => {

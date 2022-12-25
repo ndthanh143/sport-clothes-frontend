@@ -87,6 +87,7 @@ export const login = (email, password) => async (dispatch) => {
         dispatch({
             type: LOGIN_REQUEST,
         });
+        console.log("data");
 
         const config = {
             headers: {
@@ -137,8 +138,10 @@ export const loadUser = () => async (dispatch) => {
         dispatch({
             type: LOAD_USER_REQUEST,
         });
-
+        console.log("before");
         const { data } = await axios.get('me');
+        console.log("after");
+
         dispatch({ type: LOAD_USER_SUCCESS, payload: data.user });
     } catch (error) {
         dispatch({
